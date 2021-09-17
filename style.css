@@ -1,0 +1,74 @@
+*{
+    background-color: black;
+    box-sizing: border-box;
+    padding: 25px 50px 75px 100px;
+}
+/* This is how to target ALL of your HTML code. This shows how to change the background colour. */
+
+/* Box-sizing: border-box resets the border to the whole HTML as most borders have their own settings*/
+
+/* Padding: one volume (number) represents padding on all sides. Two represents top and bottom, three values represents top, right and left, then bottom. Four values represent top, right, bottom, left.  */
+
+body{
+    margin: 20px;
+    background-image: url("background.jpeg");
+}
+
+h1 {
+    color:blue;
+    font-size: 12px;
+}
+/* This is how to target an element within out HTML and change the colour and size of it. */
+
+.welcome {
+    background-color: brown;
+}
+/* This is how to target a class. */
+
+
+.large{
+    font-size: 30px;
+}
+
+.green{
+    background-color: green;
+}
+
+#whitetext {
+    color: white;
+}
+/* This is how to target an ID */
+
+#image1 {
+    width: 50%
+}
+
+p {
+    background-color: rgba(10, 42, 131, 0.5);
+    font-family: fantasy;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+}
+
+#navbar {
+    background-color: goldenrod;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navbar a {
+    color: blue;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar a:hover {
+    color: gold;
+}
